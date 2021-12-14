@@ -1,0 +1,153 @@
+body {
+  color: #000;
+  margin: 0;
+  padding: 0;
+  font: 0.75em/1.5 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
+}
+html {
+  background-image: url(funaabgate.html);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+ 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+
+}
+h1 {
+  padding: 0.6em 0.6em 0.2em 0.6em;
+  margin: 0;
+  color: #000;
+  font-size: 2em;
+  text-shadow: 2px, 2px, 2px, #fff;
+  width: 240px;
+  padding: 0 0.6em 0.6em 0;
+  margin: 0 auto 10px auto;
+  color: #f00;
+}
+
+.wrapper {
+ 
+  /*background-image: url(images/funaabgate.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-color:rgba(225,200,102,0.6);*/
+  background-color:rgba(71,101,27,0.4);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  padding: 20px 0px 20px 10px;
+}
+
+.clear {
+display:block;
+clear: both;
+}
+
+ul.gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul.gallery li {
+  float: left;
+  width: 240px;
+  margin: 0 20px 20px 0;
+  position: relative;
+  /*border: 1px solid #000;
+  -webkit-box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.3);*/
+
+}
+
+ul.gallery img {
+  display: block;
+  opacity: 0.9;
+}
+
+ul.gallery span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: rgb(255,255,255);
+  width: 230px;
+  padding: 5px 5px;
+}
+
+ul.gallery li:hover span{
+  margin-left: 0;
+  background-color: rgba(0,0,0,0.7);
+}
+
+
+li a:link strong,
+li a:visited strong {
+display: block;
+font-weight: normal;
+color: rgb(126,126,0);
+font-style: normal;
+line-height: 1;
+font-size: 1.4em;
+}
+li a:hover strong {
+color: rgb(20,200,0);
+
+}
+li a:link,
+li a:visited {
+text-decoration: none;
+color: rgb(93,78,72);
+}
+li a:link small, li a small{
+text-decoration: none;
+color: rgb(93,78,0);
+}
+li a:hover small{
+text-decoration: none;
+color: rgb(255,255,255);
+} 
+
+
+.alert-box {
+		color:#555;
+		border-radius:10px;
+		font-family:Tahoma,Geneva,Arial,sans-serif;font-size:1em;
+		padding:10px 36px;
+		margin:10px;
+	}
+	.alert-box span {
+		font-weight:bold;
+		text-transform:uppercase;
+	}
+	.error {
+		background:#ffecec url('Images/error.html') no-repeat 10px 50%;
+		border:1px solid #f5aca6;
+	}
+	.success {
+		background:#e9ffd9 url('Images/success.html') no-repeat 10px 50%;
+		border:1px solid #a6ca8a;
+	}
+	.warning {
+		background:#fff8c4 url('Images/warning.html') no-repeat 10px 50%;
+		border:1px solid #f2c779;
+	}
+	.notice {
+		background:#e3f7fc url('Images/notice.png') no-repeat 10px 50%;
+		border:1px solid #8ed9f6;
+	}
+
+.home-alert-box {
+	background-color:rgba(71,101,27,0.4);
+}
+
+.home-alert-box #guideline a {
+	text-decoration: underline;
+}

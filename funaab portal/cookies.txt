@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+portal.unaab.edu.ng	TRUE	/	FALSE	1999999999	ASP.NET_SessionId	owbkv0puywdduwii3e4fqm5o
+portal.unaab.edu.ng	TRUE	/	FALSE	1999999999	SameSite	Lax
+
